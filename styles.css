@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0;
+}
+html {
+	font-size: 100%;
+}
+.tradein {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+	background-image: url("./images/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+.tradein__body {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 15px;
+	row-gap: 20px;
+}
+.tradein__title {
+	text-align: center;
+	font-size: 2.5rem;
+}
+.tradein__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: justify;
+	gap: 50px;
+}
+.tradein__list-item {
+	max-width: 500px;
+}
+.tradein__item-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 10px;
+}
+.tradein__item-title-image {
+	height: 1.5rem;
+}
+.tradein__item-title-text {
+	font-size: 1.5rem;
+}
+.tradein__item-description {
+	font-size: 1.25rem;
+}
