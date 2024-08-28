@@ -9,6 +9,13 @@
 - Responsive Design
 - BEM Methodology
 
+**Techniques & Approaches Used:**
+- Flexbox
+- Google Fonts
+- Semantic HTML
+- CSS Reset
+- Background Image Management
+
 **Features:**
 - Clear and concise presentation of the trade-in program
 - Visually appealing design with informative sections
